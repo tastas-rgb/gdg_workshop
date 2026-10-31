@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    font-family: 'courier new', sans-serif;
+
+}
+header {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h1 {
+    margin: 0;
+    color: yellow;
+}
+main {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    gap: 20px;
+
+}
+article {
+    background-color: rgb(222, 138, 138);
+    padding: 10px;
+    border-radius: 8px;
+}
+span {
+    background-color: cyan;
+    padding: 6px;
+    border-radius: 8px;
+}
+.card-footer {
+   display: flex;
+   justify-content: space-between;
+}
+button {
+   background-color: transparent;
+   border: 2px solid green;
+}
+button:hover {
+    background-color: green;
+    
+}
